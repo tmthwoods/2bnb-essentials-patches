@@ -37,10 +37,14 @@ if (_camo == "") then {
 _ArsenalCamo = _camo;
 
 switch (_camo) do {
-	case "Multicam": {_camo = "CAMO0"};
-	case "Desert": {_camo = "CAMO1"};
-	case "Woodland": {_camo = "CAMO2"};
-	case "Winter": {_camo = "CAMO3"};
+	case "Multicam_BAL": {_camo = "CAMO0"};
+	case "Desert_BAL": {_camo = "CAMO1"};
+	case "Woodland_BAL": {_camo = "CAMO2"};
+	case "Winter_BAL": {_camo = "CAMO3"};
+	case "Multicam_NOR": {_camo = "CAMO4"};
+	case "Desert_NOR": {_camo = "CAMO5"};
+	case "Woodland_NOR": {_camo = "CAMO6"};
+	case "Winter_NOR": {_camo = "CAMO7"};
 	default {_camo = "CAMO0" };
 };
 

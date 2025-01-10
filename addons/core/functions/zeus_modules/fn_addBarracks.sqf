@@ -2,7 +2,7 @@
 Function: bnb_es_core_fnc_addBarracks
 
 Description:
-	Adds filtered Arsenal, and other 2BNB functions such as "Full Heal", etc.
+	Adds filtered Arsenal, and other JEF functions such as "Full Heal", etc.
 	to an object.
 
 Parameters:
@@ -39,11 +39,11 @@ private _availableFilters = [
 
 private _availableFilterNames = [
 	["Full", "Unlimited Arsenal!"],
-	["Standard", "All Camo 2BNB equipment"],
-	["Multicam", "MTP 2BNB equipment"],
-	["Desert", "DDPM 2BNB equipment"],
-	["Woodland", "DPMW 2BNB equipment"],
-	["Historic", "1970-1990s 2BNB equipment"],
+	["Standard", "All Camo JEF equipment"],
+	["Multicam", "MTP JEF equipment"],
+	["Desert", "DDPM JEF equipment"],
+	["Woodland", "DPMW JEF equipment"],
+	["Historic", "1970-1990s JEF equipment"],
 	"Mission"
 ];
 
@@ -103,7 +103,7 @@ _dialogParameters = _dialogParameters + [["_hasSpectator", false]];
 	};
 
 
-	// Add Arsenal - Remotely, since only the server has 2BNB Framework loaded
+	// Add Arsenal - Remotely, since only the server has JEF Framework loaded
 	[_filter, _objects] remoteExec ["bnb_f_core_fnc_arsenal", 2];
 
 	if (_hasFullHeal) then {

@@ -8,7 +8,7 @@ class CfgPatches {
 			"Arend",
 			"FarCry",
 			"Carmichael",
-			"Met",
+			"Metformin",
 		};
 		url = "https://discord.gg/rUUsCShkzJ";
 		version = 1.0.0;

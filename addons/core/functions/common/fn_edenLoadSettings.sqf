@@ -26,4 +26,4 @@ set3DENMissionAttributes
 	["Multiplayer", "respawnTemplates", ["ace_spectator", "Counter", "Wave"]],
 	["Multiplayer", "respawnDelay", 90]
 ];
-systemChat "Loaded 2bnb Settings";
+systemChat "Loaded JEF Settings";

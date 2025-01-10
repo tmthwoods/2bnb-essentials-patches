@@ -80,21 +80,37 @@ class bnb_es_edenGUI {
 			sizeEx = 1.1 * GUI_GRID_H;
 
 			class Items {
-				class MTP {
-					text = "Multicam";
-					data = "Multicam";
+				class MTP_BAL {
+					text = "Multicam (BAL)";
+					data = "Multicam_BAL";
 				};
-				class Desert {
-					text = "Desert";
-					data = "Desert";
+				class Desert_BAL {
+					text = "Desert (BAL)";
+					data = "Desert_BAL";
 				};
-				class Woodland {
-					text = "Woodland";
-					data = "Woodland";
+				class Woodland_BAL {
+					text = "Woodland (BAL)";
+					data = "Woodland_BAL";
 				};
-				class Winter {
-					text = "Winter";
-					data = "Winter";
+				class Winter_BAL {
+					text = "Winter (BAL)";
+					data = "Winter_BAL";
+				};
+				class MTP_NOR {
+					text = "Multicam (NOR)";
+					data = "Multicam_NOR";
+				};
+				class Desert_NOR {
+					text = "Desert (NOR)";
+					data = "Desert_NOR";
+				};
+				class Woodland_NOR {
+					text = "Woodland (NOR)";
+					data = "Woodland_NOR";
+				};
+				class Winter_NOR {
+					text = "Winter (NOR)";
+					data = "Winter_NOR";
 				};
 			};
 		};
@@ -154,7 +170,7 @@ class bnb_es_edenGUI {
 		};
 		class bnb_es_title: RscText {
 			idc = 1004;
-			text = "Load 2BNB Slots & Modules";
+			text = "Load JEF Slots & Modules";
 			x = 0.112499;
 			y = 0.04;
 			w = 0.554999;

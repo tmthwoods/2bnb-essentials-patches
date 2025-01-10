@@ -10,7 +10,7 @@ Author:
 ---------------------------------------------------------------------------- */
 class ACE_ZeusActions {
 	class BNB_ES_Zeus_Tools {
-		displayName = "2BNB Tools";
+		displayName = "JEF Tools";
 		icon = "\A3\ui_f\data\igui\cfg\actions\repair_ca.paa";
 
 		class Get_Dead_Players {
